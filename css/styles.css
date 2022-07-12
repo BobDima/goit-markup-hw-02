@@ -19,13 +19,21 @@
 
 }
 
-.page {
+.body {
     background-color: var(--background-main-color);
     color: var(--title-text-color);
+    font-family: roboto, sans-serif;
+    
 }
 
 .logo {
   color: var(--accent-color);
+  font-family: Raleway, cursive;
+
+  font-weight: 700;
+  font-size: 26px;
+  line-height: 1.19;
+  letter-spacing: 0.03em;
 }
 
 .page-studio {
@@ -40,6 +48,11 @@
 
 .site-nav .link {
     color: var(--title-text-color);
+
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 1.14;
+    letter-spacing: 0.02em;
 }
 .site-nav .link:hover, 
 .site-nav .link:focus {
@@ -54,6 +67,12 @@
 
 .site-info .link {
     color: var(--title-text-color);
+
+font-weight: 500;
+font-size: 14px;
+line-height: 1.14;
+letter-spacing: 0.02em;
+
 }
 
 .site-info .link:hover,
@@ -66,11 +85,40 @@
 .hero-title {
     color: #FFFFFF;
     background-color: var(--background-titles-color);
+
+font-weight: 900;
+font-size: 44px;
+line-height: 1.36;
+text-align: center;
+letter-spacing: 0.06em;
+
 }
 
+.hero-title-1 .link:hover,
+.hero-title-1 .link:focus {
+    color: var(--accent-color);
+}
 /* Feature-list */
 .section-title .fuature {
     color: var(--title-text-color);
+}
+.fuature-list .title {
+    color: var(--title-text-color);
+
+font-weight: 700;
+font-size: 14px;
+line-height: 1.14;
+letter-spacing: 0.03em;
+text-transform: uppercase;
+}
+
+.fuature-list .text {
+    color: var(--primary-text-color);
+
+font-weight: 400;
+font-size: 14px;
+line-height: 1.71;
+letter-spacing: 0.03em;
 }
 
 /* Examples */
@@ -79,14 +127,27 @@
     color: var(--title-text-color);
 
 }
+.section-title {
 
+font-weight: 700;
+font-size: 36px;
+line-height: 1.16;
+text-align: center;
+letter-spacing: 0.03em;
+
+}
 /* Team */
 
 .team-title {
     color: var(--title-text-color);
     background-color: var(--background-secondary-color);
-}
 
+font-weight: 700;
+font-size: 36px;
+line-height: 1.16;
+text-align: center;
+letter-spacing: 0.03em;
+}
 
 /* Footer */
 
@@ -99,4 +160,9 @@
 .button {
     color: var(--background-main-color);
     background-color: var(--accent-color);
+
+font-weight: 500;
+font-size: 16px;
+line-height: 1.62;
+letter-spacing: 0.03em;
 }
