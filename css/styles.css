@@ -1,0 +1,99 @@
+/* акцент #2196F3 */
+/* цвет заглавий текста #212121 */
+/* цвет основного текста #757575 */
+/* фон основного текста #FFFFFF */
+/* фон вторичного текста #F5F4FA */
+/* фон заклавий текста #2F303A */
+/* цвет слова Studio  #000000 */
+/* цвет текста контактов в футере rgba(255, 255, 255, 0.6) */
+
+:root {
+    --accent-color: #2196F3; 
+    --title-text-color: #212121;
+    --primary-text-color: #757575; 
+    --background-main-color: #FFFFFF;
+    --background-secondary-color: #F5F4FA;
+    --background-titles-color: #2F303A;
+    --studio-word-color: #000000;
+    --footer-text-color: rgba(255, 255, 255, 0.6);
+
+}
+
+.page {
+    background-color: var(--background-main-color);
+    color: var(--title-text-color);
+}
+
+.logo {
+  color: var(--accent-color);
+}
+
+.page-studio {
+    color: var(--studio-word-color);
+}
+
+.list {
+    list-style: none;
+}
+
+/* Site-nav */
+
+.site-nav .link {
+    color: var(--title-text-color);
+}
+.site-nav .link:hover, 
+.site-nav .link:focus {
+    color: var(--accent-color);
+}
+
+.site-nav .link.current {
+    color: var(--accent-color);
+}
+
+/* Site-info */
+
+.site-info .link {
+    color: var(--title-text-color);
+}
+
+.site-info .link:hover,
+.site-info .link:focus {
+    color: var(--accent-color);
+}
+
+/* Hero  */
+
+.hero-title {
+    color: #FFFFFF;
+    background-color: var(--background-titles-color);
+}
+
+/* Feature-list */
+.section-title .fuature {
+    color: var(--title-text-color);
+}
+
+/* Examples */
+
+.examples {
+    color: var(--title-text-color);
+
+}
+
+/* Team */
+
+.team-title {
+    color: var(--title-text-color);
+    background-color: var(--background-secondary-color);
+}
+
+
+/* Footer */
+
+
+
+/* Button */
+.button {
+    color: var(--background-main-color);
+    background-color: var(--accent-color);
+}
