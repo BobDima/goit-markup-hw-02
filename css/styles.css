@@ -82,30 +82,19 @@
 
 /* Team */
 
-.section-2 {
-    background-color: var(--background-secondary-color);
-}
-
 .team-title {
     color: var(--title-text-color);
+    background-color: var(--background-secondary-color);
 }
 
 
 /* Footer */
-.footer-1 {
-    background-color: var(--background-titles-color);
-}
 
 .footer .link:hover,
 .footer .link:focus {
     color: var(--accent-color);
 }
 
-.page-studio {
-    color: var(--background-main-color);
-}
-
-l
 /* Button */
 .button {
     color: var(--background-main-color);
