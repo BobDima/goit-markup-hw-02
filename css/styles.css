@@ -66,7 +66,7 @@
 /* Site-info */
 
 .site-info .link {
-    color: var(--title-text-color);
+    color: var(--primary-text-color);
 
 font-weight: 500;
 font-size: 14px;
@@ -115,7 +115,6 @@ text-transform: uppercase;
 .fuature-list .text {
     color: var(--primary-text-color);
 
-font-weight: 400;
 font-size: 14px;
 line-height: 1.71;
 letter-spacing: 0.03em;
@@ -149,6 +148,23 @@ text-align: center;
 letter-spacing: 0.03em;
 }
 
+.title-h {
+color: var(--title-text-color);
+font-weight: 500;
+font-size: 16px;
+line-height: 1.18;
+text-align: center;
+letter-spacing: 0.03em;
+}
+
+.text-team {
+    color: var(--primary-text-color);
+font-weight: 400;
+font-size: 16px;
+line-height: 1.18;
+text-align: center;
+letter-spacing: 0.03em;
+}
 /* Footer */
 
 .footer .link:hover,
@@ -156,6 +172,34 @@ letter-spacing: 0.03em;
     color: var(--accent-color);
 }
 
+.footer-bck {
+    background-color: var(--background-titles-color);
+}
+
+
+.footer-map {
+    color: var(--background-main-color);
+    font-family: 'Roboto';
+font-style: normal;
+font-weight: 400;
+font-size: 14px;
+line-height: 1.71;
+letter-spacing: 0.03em;
+}
+
+.footer-nav {
+    color: var(--footer-text-color);
+    font-family: 'Roboto';
+font-style: normal;
+font-weight: 400;
+font-size: 14px;
+line-height: 1.71;
+letter-spacing: 0.03em;
+}
+
+.page-studio-white {
+    color: var(--background-main-color);
+}
 /* Button */
 .button {
     color: var(--background-main-color);
@@ -164,5 +208,35 @@ letter-spacing: 0.03em;
 font-weight: 500;
 font-size: 16px;
 line-height: 1.62;
+letter-spacing: 0.03em;
+font-family: inherit;
+}
+
+
+/* Portfolio */
+
+.button-p {
+    color: var(--title-text-color);
+    background-color: var(--accent-color);
+font-weight: 500;
+font-size: 16px;
+line-height: 1.62;
+text-align: center;
+letter-spacing: 0.03em;
+}
+
+.title-h {
+    color: var(--title-text-color);
+font-weight: 700;
+font-size: 18px;
+line-height: 2;
+letter-spacing: 0.06em;
+}
+
+.title-p {
+    color: var(--primary-text-color);
+font-weight: 400;
+font-size: 16px;
+line-height: 1.87;
 letter-spacing: 0.03em;
 }
