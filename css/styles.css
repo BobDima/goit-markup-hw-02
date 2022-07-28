@@ -82,9 +82,12 @@ letter-spacing: 0.02em;
 
 /* Hero  */
 
+.hero {
+    background-color: var(--background-titles-color);
+}
+
 .hero-title {
     color: #FFFFFF;
-    background-color: var(--background-titles-color);
 
 font-weight: 900;
 font-size: 44px;
@@ -96,7 +99,8 @@ letter-spacing: 0.06em;
 
 .hero-title-1 .link:hover,
 .hero-title-1 .link:focus {
-    color: var(--accent-color);
+    color: var(--background-main-color);
+    background-color: var(--accent-color);
 }
 /* Feature-list */
 .section-title .fuature {
@@ -119,6 +123,7 @@ font-size: 14px;
 line-height: 1.71;
 letter-spacing: 0.03em;
 }
+
 
 /* Examples */
 
@@ -159,8 +164,7 @@ letter-spacing: 0.03em;
 
 .text-team {
     color: var(--primary-text-color);
-font-weight: 400;
-font-size: 16px;
+
 line-height: 1.18;
 text-align: center;
 letter-spacing: 0.03em;
@@ -217,15 +221,17 @@ font-family: inherit;
 
 .button-p {
     color: var(--title-text-color);
-    background-color: var(--accent-color);
+    background-color: var(--background-secondary-color);
+
 font-weight: 500;
 font-size: 16px;
 line-height: 1.62;
 text-align: center;
 letter-spacing: 0.03em;
+font-family: inherit;
 }
 
-.title-h {
+.title-g {
     color: var(--title-text-color);
 font-weight: 700;
 font-size: 18px;
